@@ -1,16 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YT Clone<title>
+    <title>YT Clone</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="Sidebar">sidebar</div>
-    <div id="main"> 
-    <div id="Ricerca">Ricerca</div>
-    <div id="Contenuti"> Contenuti </div>
+    <div id="Sidebar">
+        <div class="icone-Sidebar">
+        <ion-icon name="menu-outline"></ion-icon>
+        </div>
+        <div class="icone-Sidebar">
+        <ion-icon name="home-outline"></ion-icon>
+        <p> Home </p>              
+        </div>
+        <div class="icone-Sidebar">
+        <ion-icon name="compass-outline"></ion-icon>
+         <p> Esplora </p>    
+        </div>
+        <div class="icone-Sidebar">
+        <ion-icon name="albums-outline"></ion-icon>
+         <p> Libreria </p>    
+        </div>
     </div>
+        <div id="main"> 
+        <div id="Ricerca">
+        <img src="Assets/youtube-logo-png-transparent-image-5.png" id="Logo"/>
+        <div id="search-wrapper">
+            <div id="barra-ricerca">
+            <input type="text" placeholder="Cerca su Youtube">
+            </div>
+            <button>
+                <div id="Lente">
+                   <ion-icon name="search-outline"></ion-icon> 
+                </div>
+            </button>
+            <div id="mic-icon">
+             <ion-icon name="mic-outline"></ion-icon>   
+            </div>
+        </div>
+        <div class="top-actions">
+            <div class="top-bar">
+             <ion-icon name="videocam-outline"></ion-icon>   
+            </div>
+            <div class="top-bar">
+                <ion-icon name="notifications-outline"></ion-icon>
+            </div>
+            <div class="top-bar">
+                <ion-icon name="person-circle-outline"></ion-icon>
+            </div>
+        </div>
+        </div>
+        <div id="Contenuti"> 
+            <img src="Assets/epicode_thumb (1).png"/>
+            <img src="Assets/epicode_thumb (1).png"/>
+            <img src="Assets/epicode_thumb (1).png"/>
+            <img src="Assets/epicode_thumb (1).png"/>
+            <img src="Assets/epicode_thumb (1).png"/>
+            <img src="Assets/epicode_thumb (1).png"/>
+        </div>
+    </div>
+    <script type="module"
+    src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
